@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex; 
+    justify-content: center; /* Horinzontally Centers Content */
+    text-align: center; /* Aligns text to the center */
+    height: 100vh; /* Changes the height of the content */
+    align-items: center; /* Vertically Centers Content */
+    background-color: blue;
+}
+
+.header{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.links{
+    font-size: 5rem;
+    margin: 10px auto;
+}
+
+.gundam{
+    font-size: 3rem;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid #FFD700;
+    background-color: red;
+    color: white;
+}
+
+#gundam1{
+    padding: 10px 320px;
+}
+
+#gundam2{
+    padding: 10px 74px;
+}
+
+.gundam-header{
+    font-size: 4rem;
+    color: white;
+    position: sticky;
+}
+
+#gundam-name{
+    font-size: 4rem;
+    color: white;
+    font-family: bold;
+    border: 5px solid #FFD700;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 200px;
+    position: sticky;
+}
+
+#gundam-button{
+    margin-top: 50px;
+    font-size: 3rem;
+    padding: 10px 50px;
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.fa-solid.fa-house{
+    font-size: 1.5rem;
+    color: #FFD700;
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.gundam2-header{
+    font-size: 2.7rem;
+    color: white;
+}
